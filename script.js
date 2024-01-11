@@ -2,7 +2,7 @@ const playSound = function() {
     let element = document.createElement('div');
     element.setAttribute('style', 'display: none');
     element.innerHTML = `
-      <audio loop autoplay>
+      <audio autoplay>
         <source src="./sonido/El Desierto Que Atraviezas final.wav">
       </audio>
     `;
